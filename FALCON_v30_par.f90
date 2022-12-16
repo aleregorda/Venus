@@ -139,7 +139,7 @@ program FALCON
       courant_number,time_step,check_markers,eff_average,t_initial,shear,adiabatic,solver_T,layer_T,T_top,T_bot,y_top,y_bot,radio,cond,parabolic_T,&
       markers_vtu_out,markers_txt_out,lagrangian_grid,dim_x_lg,dim_y_lg,old_lgrid,lgrid,serpentine,Press_0,H2O_serp,ocean,weak_plastic,xmin_lg,xmax_lg,&
       ymin_lg,ymax_lg,max_time_step,healing,healing_rate,rho_press,thermal_act,OUT_MODEL,OUT_PHASE,DIR_Perplex,H2O_ocean,beta_press,delta_water,melt_ext)
- call changed_parameters(iproc,numarg,OUT_DIR,OUT_MODEL,OUT_PHASE,t_initial,t_final,Cn,time_step,max_time_step,power_law)
+! call changed_parameters(iproc,numarg,OUT_DIR,OUT_MODEL,OUT_PHASE,t_initial,t_final,Cn,time_step,max_time_step,power_law)
  if(equilib)then
    v_sx=0.D0
    v_dx=0.D0
